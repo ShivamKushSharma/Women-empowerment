@@ -1,0 +1,125 @@
+
+<app-step></app-step>
+
+<!-- <br>
+   <form [formGroup]="ngoRegForm"  (ngSubmit)="onSubmit()">
+    <label for="ngo_name">NGO Name: </label>
+    <input id="ngo_name" type="text" formControlName="ngo_name" >
+  <br>
+  <br>
+    <label for="ngo_address">NGO Address: </label>
+    <input id="ngo_address" type="text" formControlName="ngo_address">
+  <br>
+  <br>
+    <label for="ngo_phone">NGO Phone</label>
+    <input id="ngo_phone" type="text" formControlName="ngo_phone">
+  <br>
+  <br>
+  <label for="orgType">Oraganization Type:</label>
+  <input id="orgType" type="text" formControlName="orgType">
+<br>
+<br>
+    <label for="incharge">Project Incharge</label>
+    <input id="incharge" type="text" formControlName="incharge">
+  <br>
+<br>
+   <button type="submit">Submit</button> <br>  
+  <br>
+
+</form> -->
+<div class="p-3" id="content">
+  <section id="nav">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- <a class="navbar-brand" href="Focus2.php"><img src="./images/logo.png"></a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <!-- <li class="nav-item active">
+          <a class="nav-link" href="Focus2.php">HOME</a>
+        </li>
+         -->
+        
+         
+      </ul>
+    </div>
+  </nav>
+      </section>
+  
+  
+      <form [formGroup]="stepRegForm" novalidate>
+        <div class="wrapper">
+            <div class="header-area">
+                <h2>Registration</h2>
+            </div>
+            <div class="form-area">
+                
+                <i class="a-user"></i>
+                <label for="name">Name: </label>
+                <input  id="name" type="text" formControlName="name" name="name">
+                
+                <i class="a-user"></i>
+                <label for="designation">Designation: </label>
+                <input id="designation" type="text"formControlName="designation" name="designation">
+               
+                <i class="a-user"></i>
+                <label for="salary">Salary: </label>
+                <input  id="salary" type="number" formControlName="salary" name="salary">
+
+                <i class="a-email"></i>
+                <label for="no_of_member">Number of Members: </label>
+                <input   id="no_of_member" type="number" formControlName="no_of_member"name="no_of_member" >
+               
+                <i class="a-user"></i>
+                <label for="no_of_children">Number of Children: </label>
+                <input   id="no_of_children" type="number" formControlName="no_of_children"name="no_of_children" >
+                
+                <i class="a-user"></i>
+                <label for="family_income">Family Income: </label>
+                <input  id="family_income" type="number" formControlName="family_income" name="family_income">
+                
+                <i class="a-user"></i>
+                <label for="criteria">Criteria: </label>
+                <input  id="criteria" type="text" formControlName="criteria" name="criteria">
+                                  
+                <i class="a-user"></i>
+                <label for="aadhar_no">Aadhar Number: </label>
+                <input  id="aadhar_no" type="text" formControlName="aadhar_no" name="aadhar_no">
+
+                <i class="a-user"></i>
+                <label for="pan_no">PAN Number: </label>
+                <input  id="pan_no" type="text" formControlName="pan_no" name="pan_no">
+
+                <i class="a-user"></i>
+                <label for="email">Email: </label>
+                <input  id="email" type="text" formControlName="email" name="email" >
+                
+
+                <i class="a-user"></i>
+                <label for="address">Address: </label>
+                <input  id="address" type="text" formControlName="address" name="address">
+
+                <i class="a-user"></i>
+            <label for="course">Training Course </label>
+            <input  id="course" type="text" formControlName="course" name="course">
+                <!-- <i class="a-user"></i>
+                <label for="User_D">User Id: </label>
+                <input  id="User_D" type="text" formControlName="User_D" name="User_D">
+
+                <i class="a-user"></i>
+                <label for="Training_Course">Training Course: </label>
+                <input  id="Training_Course" type="text" formControlName="Training_Course" name="Training_Course"> -->
+
+                <!-- <i class="a-key"></i> -->
+                <!-- <input class="pass" type="password" name="password" placeholder="Enter Password" required>
+                <i class="a-key"></i>
+                <input class="retypepass" type="password" placeholder="Confirm Password" required><br><br> -->
+                <!-- <input id="signup" type="submit" value="Signup"> -->
+                <button class="btn btn-warning" (click)="onSubmit()"  style="margin-left: 20px;"> SUBMIT</button>
+                
+                
+            </div>
+        </div>
+    </form>
+  </div>

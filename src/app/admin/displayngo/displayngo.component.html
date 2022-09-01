@@ -1,0 +1,34 @@
+<br>
+<br>
+<br>
+
+<h1 >REGISTERED NGOs</h1>
+<br>
+<br>
+
+<table border="1"  class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>NGO Name</th>
+            <th>Address</th>
+            <th> Phone Number</th>
+            <th> Organization Type</th>
+            <th> Project Incharge</th>
+
+        </tr >
+
+    </thead>
+
+    <tbody>
+        <tr *ngFor = "let n of ngoList">
+            <td>{{n.ngo_name}}</td>
+            <td>{{n.ngo_address}}</td>
+            <td>{{n.ngo_phone}}</td>
+            <td>{{n.orgType}}</td>
+            <td>{{n.incharge}}</td>
+             <td><button class="btn btn-warning" (click)="editNgo(n)" style="margin-left: 20px;"> Edit</button></td> 
+            <td><button class="btn btn-warning" (click)="deleteNgo(n)" style="margin-left: 20px;"> Delete</button></td>
+        </tr>
+
+    </tbody>
+</table>

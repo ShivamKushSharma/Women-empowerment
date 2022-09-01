@@ -1,0 +1,48 @@
+<app-step></app-step>
+
+<br>
+<br>
+<br>
+<!-- <table border="1"  class="table">
+    <thead class="thead-dark">
+ 
+        <tr>
+            <th>Course Name</th>
+            <th>Duration</th>
+            <th> Start Date</th>
+            <th> NGO NAME</th>
+            <th> LOCATION</th>
+          
+        </tr>
+    
+    </thead>
+    <tbody>
+        <tr *ngFor = "let n of courseList">
+            <td>{{n.course_name}}</td>
+            <td>{{n.duration}}</td>
+            <td>{{n.start_date}}</td>
+            <td>{{n.ngo_name}}</td>
+            <td>{{n.location}}</td>
+           
+        
+        </tr>
+    </tbody>
+</table> -->
+<div class="card_display">
+   
+<div class="card" *ngFor = "let n of courseList"  style="width: 18rem;">
+    <img class="card-img-top" src="/assets/Images/background.jpg" alt="Card image cap">
+    <div class="card-body">
+    
+        <h6><b>Name :</b></h6><h6>{{n.course_name}}</h6><br>
+        <h6><b>Duration :</b></h6><h6> {{n.duration}}</h6><br>
+        <h6><b>Start Date :</b></h6><h6> {{n.start_date}}</h6><br>
+        <h6><b>NGO Name :</b></h6><h6>{{n.ngo_name}} </h6><br>
+        <h6><b>Location :</b></h6><h6>{{n.location}} </h6><br>
+       
+    
+    </div>
+  </div>
+ 
+
+  </div>

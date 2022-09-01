@@ -1,0 +1,176 @@
+{
+  "ngos": [
+    {
+      "id": 1,
+      "ngo_name": "abcd",
+      "ngo_address": "pune",
+      "ngo_phone": "7796218907",
+      "orgType": "Women Empowerment",
+      "incharge": "ABCD"
+    },
+    {
+      "ngo_name": "abc",
+      "ngo_address": "abc",
+      "ngo_phone": "7796218907",
+      "orgType": "abc",
+      "incharge": "abc",
+      "id": 2
+    },
+    {
+      "ngo_name": "Women_E",
+      "ngo_address": "Hinjewadi phase1, Pune",
+      "ngo_phone": "7796218907",
+      "orgType": "women",
+      "incharge": "pqrs",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "ngo_name": "NGO1",
+      "ngo_address": "Bluridge",
+      "ngo_phone": "7796218907",
+      "orgType": "women",
+      "incharge": "pqrs"
+    },
+    {
+      "ngo_name": "pqrs",
+      "ngo_address": "Hinjewadi phase1, Pune",
+      "ngo_phone": "7796218907",
+      "orgType": "women",
+      "incharge": "abc",
+      "id": 5
+    },
+    {
+      "ngo_name": "Shivam",
+      "ngo_address": "Pune",
+      "ngo_phone": "9657619872",
+      "orgType": "abcd",
+      "incharge": "shivam",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "ngo_name": "Women1",
+      "ngo_address": "Mumbai",
+      "ngo_phone": "8805371718",
+      "orgType": "women",
+      "incharge": "Palvi"
+    },
+    {
+      "ngo_name": "Child_Development",
+      "ngo_address": "Mumbai",
+      "ngo_phone": "8805371718",
+      "orgType": "women",
+      "incharge": "pqrs",
+      "id": 9
+    }
+  ],
+  "signup": [
+    {
+      "id": 1,
+      "username": "pratibha",
+      "password": "1234",
+      "name": "Pratibha",
+      "mobileNo": "7796218907",
+      "dob": "27-08-2000"
+    },
+    {
+      "username": "abcd",
+      "password": "123",
+      "name": "abc",
+      "mobileNo": "7796218907",
+      "dob": "23-08-2000",
+      "id": 2
+    },
+    {
+      "username": "mrudul",
+      "password": "mrudul",
+      "name": "mrudul",
+      "mobileNo": "7796218907",
+      "dob": "23-08-2000",
+      "id": 3
+    },
+    {
+      "username": "pooja",
+      "password": "1234",
+      "name": "pooja",
+      "mobileNo": "7996218907",
+      "dob": "29-08-2000",
+      "id": 4
+    },
+    {
+      "username": "priya",
+      "password": "priya123",
+      "name": "Priya",
+      "mobileNo": "7796218907",
+      "dob": "29-08-2000",
+      "id": 5
+    },
+    {
+      "username": "priya1",
+      "password": "123",
+      "name": "",
+      "mobileNo": "7796218907",
+      "dob": "23-08-2000",
+      "id": 6
+    },
+    {
+      "username": "priya1",
+      "password": "123",
+      "name": "",
+      "mobileNo": "7796218907",
+      "dob": "23-08-2000",
+      "id": 7
+    }
+  ],
+  "coursedetails": [
+    {
+      "course_name": "java",
+      "duration": 23,
+      "start_date": "2020-11-15",
+      "ngo_id": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "course_name": "python",
+      "duration": 29,
+      "start_date": "2020-04-04",
+      "ngo_id": "2"
+    }
+  ],
+  "Users": [
+    {
+      "name": "Sunita",
+      "designation": "GET",
+      "salary": 2000,
+      "no_of_member": 6,
+      "no_of_children": 4,
+      "family_income": 3000,
+      "criteria": "yes",
+      "aadhar_no": "123456789098",
+      "pan_no": "asdfg12345",
+      "email": "shivam29kush@gmail.com",
+      "address": "Pune",
+      "u_id": "1",
+      "training_course": "21",
+      "id": 2
+    },
+    {
+      "name": "Mrudul",
+      "designation": "Tarinee",
+      "salary": 300000,
+      "no_of_member": 4,
+      "no_of_children": 0,
+      "family_income": 90000,
+      "criteria": "yes",
+      "aadhar_no": "123456",
+      "pan_no": "123456",
+      "email": "mrudul@123",
+      "address": "Hinjewadi phase1, Pune",
+      "u_id": "2",
+      "training_course": "2",
+      "id": 3
+    }
+  ]
+}

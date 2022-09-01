@@ -1,0 +1,57 @@
+<app-admin></app-admin>
+<div class="p-3" id="content">
+    <section id="nav">
+      <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- <a class="navbar-brand" href="Focus2.php"><img src="./images/logo.png"></a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <!-- <li class="nav-item active">
+            <a class="nav-link" href="Focus2.php">HOME</a>
+          </li>
+           -->
+          
+           
+        </ul>
+      </div>
+    </nav>
+        </section>
+<form [formGroup]="addngoForm"  >
+    <div class="wrapper">
+        <div class="header-area">
+            <h2>Add NGO</h2>
+        </div>
+        <div class="form-area">
+            
+            <i class="a-user"></i>
+            <label for="ngo_name">NGO Name: </label>
+            <input  id="ngo_name" type="text" formControlName="ngo_name" name="ngo_name">
+            
+            <i class="a-user"></i>
+            <label for="ngo_name">NGO Address </label>
+            <input id="ngo_address" type="text"formControlName="ngo_address" name="ngo_address">
+           
+            <i class="a-email"></i>
+            <label for="ngo_name">NGO Phone </label>
+            <input   id="ngo_phone" type="text" formControlName="ngo_phone"name="ngo_phone" >
+           
+            <i class="a-email"></i>
+            <label for="ngo_name">NGO Oraganization Type</label>
+            <input  id="orgType" type="text"formControlName="orgType" name="orgType" >
+            <i class="a-email"></i>
+            <label for="ngo_name">Project Incharge </label>
+            <input  id="incharge" type="text" formControlName="incharge"name="incharge" >
+            <!-- <i class="a-key"></i> -->
+            <!-- <input class="pass" type="password" name="password" placeholder="Enter Password" required>
+            <i class="a-key"></i>
+            <input class="retypepass" type="password" placeholder="Confirm Password" required><br><br> -->
+            <!-- <input id="signup" type="submit" value="Signup"> -->
+            <button class="btn btn-warning" (click)="onSubmit()"  style="margin-left: 20px;"> SUBMIT</button>
+            
+            
+        </div>
+    </div>
+</form>
+</div>

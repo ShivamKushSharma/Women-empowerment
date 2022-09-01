@@ -1,0 +1,21 @@
+<table border="1">
+    <thead>
+        <tr>
+            <th>NGO Name</th>
+            <th>Address</th>
+            <th> Phone Number</th>
+            <th> Organization Type</th>
+            <th> Project Incharge</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let n of ngoList">
+            <td>{{n.ngo_name}}</td>
+            <td>{{n.ngo_address}}</td>
+            <td>{{n.ngo_phone}}</td>
+            <td>{{n.orgType}}</td>
+            <td>{{n.incharge}}</td>
+        
+        </tr>
+    </tbody>
+</table>

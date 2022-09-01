@@ -1,0 +1,17 @@
+.card_display{
+     /* display:flex;  */
+    background-color: bisque;
+    justify-content: center;
+    align-items: center; 
+   
+
+}
+.card{
+    display:inline-block;
+    /* background-color: blue; */
+    margin:10px 10px;
+    align-self: center;
+}
+.card-body h5,h6{
+    display:inline-block;
+}

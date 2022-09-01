@@ -1,0 +1,54 @@
+#content p, li {
+    text-align: justify;
+    line-height: 1.6em;
+}
+.scrolling {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.scrolling h2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+	text-align: center;
+	line-height: 20px;
+	color: black;
+   
+   
+	transform: translateX(100%);
+	animation: scrolling 15s linear infinite;
+}
+@keyframes scrolling {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+/* div{
+	padding: 0px 50px;
+} */
+#about-container {
+    width: 100%;
+    /* background: url('/assets/Images/background.jpg')no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card-body p {
+    line-height: 1.5em;
+    text-align: justify
+}
+
+.content p {
+    line-height: 1.5em;
+}

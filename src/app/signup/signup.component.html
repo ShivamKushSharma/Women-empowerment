@@ -1,0 +1,75 @@
+
+<!-- <app-home></app-home>  -->
+<!-- <section id="nav">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+         
+        </li>
+        
+        
+         
+      </ul>
+    </div>
+  </nav> -->
+      <!-- </section> -->
+
+      <div class="container">
+        <div id="backgroundImage"></div>
+      <form [formGroup]="signupForm"  >
+        <div class="wrapper">
+            <!-- <div class="header-area">
+                <h2>Registration</h2>
+            </div>  -->
+            <div class="form-area">
+                
+
+              <i class="a-user"></i>
+              <div style="display:flex;flex-direction:row">
+              <img src="/assets/Images/name.gif" width=10% height=10%>
+              <input  id="name" type="text"formControlName="name" name="Name"  placeholder=" Name" required>
+            </div>
+            <div style="display:flex;flex-direction:row">
+              <img src="/assets/Images/username.png" width=12% height=12%>
+                <i class="a-user"></i>
+                <input  id="username" type="text"formControlName="username" name="Username" placeholder=" Userame" required maxlength="30" minlength="2" ngModel name="username" #name=""ngModel >
+                
+               </div>
+               <div style="display:flex;flex-direction:row">
+                <img src="/assets/Images/password.gif" width=9% height=9%>
+                <i class="a-user"></i>
+                <input id="password" type="password" formControlName="password"name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder=" Password" required>
+                </div>
+
+                
+                <!-- <input class="retypepass" type="text" formControlName="confirm_password" placeholder="Confirm Password" required><br>
+                <input  id="name" type="text"formControlName="name" name="Name" placeholder="Name" required> -->
+                <div style="display:flex;flex-direction:row">
+                  <img src="/assets/Images/phone.png" width=9% height=9%>
+                <i class="a-key"></i>
+                <input   id="mobileNo" class="pass" type="text"  formControlName="mobileNo" name="Mobile Number" placeholder="Mobile Number" required>
+                <i class="a-key"></i>
+                </div>
+                <div style="display:flex;flex-direction:row">
+                  <img src="/assets/Images/calendar.gif" width=9% height=9%>
+                <input  id="dob" class="pass" type="text" formControlName="dob" name="Date Of Birth" placeholder="Date of Birth" required>
+                <!-- <i class="a-key"></i>
+                  
+                <input class="retypepass" type="password" placeholder="Confirm Password" required><br><br> -->
+                </div>
+                <div style="justify-content: center;align-items: center; display:flex;margin: 2rem 0em;">
+                <button class="btn btn-warning" (click)="onSubmit()"  style="margin-left: 20px;"> SIGNUP</button>
+              </div>
+              <div style="justify-content: center;align-items: center; display:flex;margin: 2rem 0em;;">
+                <h5 style="margin-right:1rem">ALREADY REGISTERED?</h5>
+                <a routerLink="/login" routerLinkActive="active" ><h6>login here</h6></a>
+                </div>
+            </div>
+         </div> 
+    </form>
+  </div>

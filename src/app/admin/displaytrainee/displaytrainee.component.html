@@ -1,0 +1,50 @@
+<br>
+<br>
+<br>
+<h1>REGISTERED TRAINEES</h1>
+<br>
+<br>
+<table border="1"  class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>Trainee Name</th>
+            <th>Designation</th>
+            <th> Salary</th>
+            <th> Number of Member</th>
+            <th> Number of Children</th>
+            <th> Family Income</th>
+            <th> Criteria</th>
+            <th> Aadhar Number</th>
+            <th> Pan Number</th>
+            <th> Email</th>
+            <th> Address</th>
+            <!-- <th> User ID</th> -->
+            <th> Training Course</th>
+
+        </tr >
+
+    </thead>
+
+    <tbody>
+        <tr *ngFor = "let n of userList">
+            <td>{{n.name}}</td>
+            <td>{{n.designation}}</td>
+            <td>{{n.salary}}</td>
+            <td>{{n.no_of_member}}</td>
+            <td>{{n.no_of_children}}</td>
+            <td>{{n.family_income}}</td>
+            <td>{{n.criteria}}</td>
+            <td>{{n.aadhar_no}}</td>
+            <td>{{n.pan_no}}</td>
+            <td>{{n.email}}</td>
+            <td>{{n.address}}</td>
+            <td>{{n.course}}</td>
+            <!-- <td>{{n.User_D.u_id}}</td>
+            <td>{{n.Training_Course.t_id}}</td> -->
+             <td><button class="btn btn-warning" (click)="edittrainee(n)" style="margin-left: 20px;"> Edit</button></td> 
+            <td><button class="btn btn-warning" (click)="deletetrainee(n)" style="margin-left: 20px;"> Delete</button></td>
+        </tr>
+
+    </tbody>
+</table>
+

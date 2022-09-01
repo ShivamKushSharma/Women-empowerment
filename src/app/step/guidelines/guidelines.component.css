@@ -1,0 +1,11 @@
+.ngo-step{ 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#content p, li {
+    text-align: justify;
+    line-height: 1.6em;
+}

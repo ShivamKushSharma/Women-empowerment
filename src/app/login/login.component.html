@@ -1,0 +1,74 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <li style="padding-left:3em"></li>
+
+          
+          <li style="padding-right:55em"></li>
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="/contactus">CONTACT US</a>
+          </li>
+          <li style="padding-left:1em"></li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">LOGOUT</a>
+          </li> -->
+      </ul>
+      </div>
+      </nav>
+      <br>
+      <br>
+      <br>
+      <br>
+<br>
+<br>
+<br>
+<br>
+<section id="nav">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- <a class="navbar-brand" href="Focus2.php"><img src="./images/logo.png"></a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <!-- <a class="nav-link" href="Focus2.php">HOME</a> -->
+        </li>
+        
+        
+         
+      </ul>
+    </div>
+  </nav>
+      </section>
+      <div class="container">
+      <form [formGroup]="loginForm"  >
+        <div class="wrapper">
+            <div class="header-area">
+                <h2>LOGIN</h2>
+            </div>
+            <div class="form-area">
+                
+                <i class="a-email"></i>
+                
+                <div style="display:flex;flex-direction:row">
+                  <img src="/assets/Images/username.png" width=12% height=12%>
+                    <i class="a-user"></i>
+                    <input  id="username" type="text"formControlName="username" name="Username" placeholder=" Enter Userame" required>
+                   </div>
+                   <div style="display:flex;flex-direction:row">
+                    <img src="/assets/Images/password.gif" width=9% height=9%>
+                    <i class="a-user"></i>
+                    <input id="password" type="password" formControlName="password"name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Enter Password" required>
+                    </div>
+              <div style="justify-content: center;align-items: center; display:flex;margin: 2rem 0em;">
+                <button class="btn btn-warning" (click)="onSubmit()" style="margin-left: 20px;"> LOGIN</button>
+              </div>
+              <div style="justify-content: center;align-items: center; display:flex;margin: 2rem 0em;;">
+                <h5 style="margin-right:1rem">NOT REGISTERED?</h5>
+                <a routerLink="/homemain" routerLinkActive="active" ><h6>sign in here</h6></a>
+                </div>
+            </div>
+        </div>
+    </form>
+    </div>
